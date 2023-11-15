@@ -15,11 +15,12 @@
     display: flex;
     justify-content: space-between;
     margin-top:10px;
+    margin-bottom: 10px;
 }
 
 .logo img {
     width: 200px;
-    margin-left:70px;
+    margin-left:140px;
 }
 
 
@@ -67,11 +68,29 @@ button .gg-search{
 
 .icons{
     color:#cfcfcf;
-    margin-right:70px;
-
+    margin-right: 70px;
 }
 
 .icons span:hover{
     color:#268f18;
     border: 0.5px solid #268f18;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: auto;
+    border-top: 2px solid #cfcfcf;
+
+}
+.navbar li{
+    padding: 12px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.navbar li:hover{
+    border-bottom: 3px solid #268f18;
+    cursor: pointer;
 }
