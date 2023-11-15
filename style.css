@@ -136,9 +136,64 @@ button .gg-search {
 
 }
 
-.hr-line{
+.hr-line {
     width: 370px;
     height: 3px;
     background-color: #268f18;
     margin: 18px;
+}
+
+.prod-catg {
+    display: flex;
+    margin: 20px 190px;
+    justify-content: space-between;
+}
+
+.product1 {
+    text-align: center;
+}
+
+.product1 img {
+    width: 130px;
+}
+
+.prod-catg .product1:hover {
+    color: #268f18;
+    cursor: pointer;
+}
+
+
+.ri-star-fill {
+    color: rgb(255, 196, 0);
+}
+
+.new-arrivals {
+    justify-content: space-between;
+    display: flex;
+    margin: 20px 60px;
+}
+
+
+.new-arr-prod-a {
+    border: 2px solid #cfcfcf;
+    border-radius: 8px;
+    box-shadow: 20px;
+    width: 220px;
+    height: 265px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.new-arr-prod-a img {
+    width: 200px;
+}
+
+.new-arr-prod-a h4 {
+    margin: 8px;
+}
+
+.new-arr-prod-a:hover {
+    border: 2px solid #268f18;
+    transition: 0.5s;
 }
