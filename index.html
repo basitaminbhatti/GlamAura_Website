@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favion/favion4.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://css.gg/css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,248 +16,273 @@
 </head>
 
 <body>
-    <div class="container">
-        <!-- header -->
-        <div class="header">
+    <!-- ======================================  Header ====================================== -->
+    <header>
+        <div class="container header-section flex">
             <div class="logo">
                 <img src="images/Glam Aura New logo.png">
             </div>
             <div class="search-box">
                 <input type="text" placeholder="SEARCH A PRODUCT....">
-                <button><i class="gg-search"></i></button>
+                <button><i class="ri-search-line"></i></button>
             </div>
             <div class="icons">
-                <span><i class="ri-heart-3-fill"></i></span>
-                <span><i class="ri-shopping-cart-2-fill"></i></span>
-                <span><i class="ri-whatsapp-fill"></i></span>
+                <a href="#"><i class="ri-heart-3-fill"></i></a>
+                <a href="#"><i class="ri-shopping-cart-2-fill"></i></a>
+                <a href="#"><i class="ri-whatsapp-fill"></i></a>
             </div>
         </div>
-        <!-- Navigation Bar -->
-        <div class="navbar">
-            <li>MAKEUP</li>
-            <li>SALE</li>
-            <li>SKINCARE</li>
-            <li>BATH AND BODY</li>
-            <li>HAIR</li>
-            <li>ACCESSORIES</li>
-            <li>CLOTHING</li>
-            <li>GIFTS</li>
+    </header>
+    <!-- ======================================  Navbar ====================================== -->
+    <div class="navbar flex">
+        <div class="container flex-wrap">
+            <a href="#">MAKEUP</a>
+            <a href="#">SALE</a>
+            <a href="#">SKINCARE</a>
+            <a href="#">BATH AND BODY</a>
+            <a href="#">HAIR</a>
+            <a href="#">ACCESSORIES</a>
+            <a href="#">CLOTHING</a>
+            <a href="#">GIFTS</a>
         </div>
-        <!-- Display Image -->
-        <div class="displyimage">
-            <div class="title-heading">
+    </div>
+    <!-- ======================================  Display Image ====================================== -->
+    <div class="displyimage">
+        <div class="container">
+            <div class="title-heading-left"></div>
+            <div class="title-heading-right">
                 <h1>TRANSFORM <br><span class="light-hd">YOUR</span> <span class="bold-col">SKIN</span><br> NATURALLY
                 </h1>
                 <P>TAKING CARE OF YOUR SKIN ESSENTIAL FOR MAINTAINNING A HEALTHLY AND RADIANT COMPLEXION DAILY FACIAL
                     CARE</P>
-                    <div class="title-heading-btn">
-                            <form>
-                              <a href="#">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                SHOP NOW
-                              </a>
-                            </form>
-                    </div>
+                <div class="title-heading-btn">
+                    <form>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SHOP NOW
+                        </a>
+                    </form>
+                </div>
             </div>
         </div>
+    </div>
+    <!-- ======================================  Product Line Heading ====================================== -->
+    <div class="container catg-heading">
+        <hr class="hr-line">
+        <h1>PRODUCT CATEGORIES</h1>
+    </div>
 
-        <!-- Heading -->
-        <div class="catg-heading">
-            <hr class="hr-line">
-            <h1>PRODUCT CATEGORIES</h1>
+    <!-- ======================================  Product Categories List  ====================================== -->
+    <div class="container prod-catg">
+        <div class="product1">
+            <img src="images/Product Images/P1.png" alt="">
+            <p>SKIN CARE</p>
         </div>
+        <div class="product1">
+            <img src="images/Product Images/P2.png" alt="">
+            <p>HAIR CARE</p>
+        </div>
+        <div class="product1">
+            <img src="images/Product Images/P3.png" alt="">
+            <p>FRAGRANCE</p>
+        </div>
+        <div class="product1">
+            <img src="images/Product Images/P4.png" alt="">
+            <p>HAND BAGS</p>
+        </div>
+        <div class="product1">
+            <img src="images/Product Images/P5.png" alt="">
+            <p>FASHION</p>
+        </div>
+        <div class="product1">
+            <img src="images/Product Images/P6.png" alt="">
+            <p>SHOES</p>
+        </div>
+        <div class="product1">
+            <img src="images/Product Images/P7.png" alt="">
+            <p>PERSONAL CARE</p>
+        </div>
+        <div class="product1">
+            <img src="images/Product Images/P8.png" alt="">
+            <p>BATH AND BODY</p>
+        </div>
+    </div>
+    <!-- ======================================  New Arrival Line Heading ====================================== -->
+    <div class="container catg-heading">
+        <hr class="hr-line">
+        <h1>NEW ARRIVALS</h1>
+    </div>
 
-        <!-- Product Categories List -->
-        <!-- FOUR EACH LINE -->
-        <div class="prod-catg">
-            <div class="product1">
-                <img src="images/Product Images/P1.png" alt="">
-                <h4>SKIN CARE</h4>
-            </div>
-            <div class="product1">
-                <img src="images/Product Images/P2.png" alt="">
-                <h4>HAIR CARE</h4>
-            </div>
-            <div class="product1">
-                <img src="images/Product Images/P3.png" alt="">
-                <h4>FRAGRANCE</h4>
-            </div>
-            <div class="product1">
-                <img src="images/Product Images/P4.png" alt="">
-                <h4>HAND BAGS</h4>
+    <!-- ======================================  New Arrivals Product List ====================================== -->
+    <section class="new-arrivals">
+        <div class="container">
+            <div class="new-arr flex">
+                <div class="new-arr-prod-a CardHover">
+                    <img src="images/Product Images/N1.png" alt="">
+                    <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-half-line"></i></span>
+                    <h6>CHILTAN PURE DAY CREAM</h6>
+                    <p>Rs 250</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
+                </div>
+                <div class="new-arr-prod-a CardHover">
+                    <img src="images/Product Images/N2.png" alt="">
+                    <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                    <h6>HYPNO LIQUID EYELINER</h6>
+                    <p>Rs 1250</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
+                </div>
+                <div class="new-arr-prod-a CardHover">
+                    <img src="images/Product Images/N3.png" alt="">
+                    <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                    <h6>NIVEA Body Lotion</h6>
+                    <p>Rs 1900</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
+                </div>
+                <div class="new-arr-prod-a CardHover">
+                    <img src="images/Product Images/N4.png" alt="">
+                    <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-half-line"></i></span>
+                    <h6>PROTEX HAND WASH</h6>
+                    <p>Rs 400</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
+                </div>
             </div>
         </div>
-
-        <!-- FOUR EACH LINE -->
-        <div class="prod-catg">
-            <div class="product1">
-                <img src="images/Product Images/P5.png" alt="">
-                <h4>FASHION</h4>
-            </div>
-            <div class="product1">
-                <img src="images/Product Images/P6.png" alt="">
-                <h4>SHOES</h4>
-            </div>
-            <div class="product1">
-                <img src="images/Product Images/P7.png" alt="">
-                <h4>PERSONAL CARE</h4>
-            </div>
-            <div class="product1">
-                <img src="images/Product Images/P8.png" alt="">
-                <h4>BATH AND BODY</h4>
-            </div>
-        </div>
-
-        <!-- Heading -->
-        <div class="catg-heading">
-            <hr class="hr-line">
-            <h1>NEW ARRIVALS</h1>
-        </div>
-
-        <!-- New Arrivals Product List -->
-        <div class="new-arrivals">
-            <div class="new-arr-prod-a">
-                <img src="images/Product Images/N1.png" alt="">
-                <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
-                        class="ri-star-fill"></i><i class="ri-star-half-line"></i></span>
-                <h4>CHILTAN PURE DAY CREAM</h4>
-                <p>Rs 250</p>
-            </div>
-            <div class="new-arr-prod-a">
-                <img src="images/Product Images/N2.png" alt="">
-                <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
-                        class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                <h4>HYPNO LIQUID EYELINER</h4>
-                <p>Rs 1250</p>
-            </div>
-            <div class="new-arr-prod-a">
-                <img src="images/Product Images/N3.png" alt="">
-                <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
-                        class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                <h4>NIVEA Body Lotion</h4>
-                <p>Rs 1900</p>
-            </div>
-            <div class="new-arr-prod-a">
-                <img src="images/Product Images/N4.png" alt="">
-                <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
-                        class="ri-star-fill"></i><i class="ri-star-half-line"></i></span>
-                <h4>PROTEX HAND WASH</h4>
-                <p>Rs 400</p>
-            </div>
-
-        </div>
-
-        <!-- Two Cards -->
-        <div class="two_cards">
-            <div class="two_card_p">
-                <h1>SKIN WHITE CREAM</h1>
+    </section>
+    <!-- ======================================  Two Cards ====================================== -->
+    <div class="container">
+        <div class="two_cards flex">
+            <div class="two_card_p flex CardHover">
+                <h4>SKIN WHITE CREAM</h4>
                 <img src="images/Product Images/SK1.png" alt="">
             </div>
-            <div class="two_card_p">
-                <h1>MAKEUP PRODUCT</h1>
+            <div class="two_card_p flex CardHover">
+                <h4>MAKEUP PRODUCT</h4>
                 <img src="images/Product Images/SK3.png" alt="">
             </div>
         </div>
+    </div>
 
+    <!-- ======================================  50% Sale Card and Some Product  ====================================== -->
+    <div class="container">
+        <div class="big_discount_div_landscape">
+            <h1><span class="bold50off">50%</span> OFF<br>UPTO FLAT</h1>
+        </div>
 
-        <!-- 50% Sale Card and Some Products -->
-        <div class="big-discount-div">
-            <div class="up50-off-flat">
-                <h1><span class="bold50off">50%</span> OFF<br>UPTO FLAT</h1>
+        <div class="big-discount-div flex">
+            <div class="big_discount_Horizontal">
+                <h3><span class="bold50off">50%</span> OFF<br>UPTO FLAT</h3>
                 <img src="images/Product Images/50_Discount.png" alt="">
             </div>
-            <div class="some-prod-card-3">
-                <div class="new-arr-prod-a three_card_a">
+
+            <div class="big_discount_prod flex">
+                <div class="new-arr-prod-a new-arr-prod-b CardHover">
                     <img src="images/Product Images/N5.png" alt="">
                     <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
                             class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                    <h4>TRESEMME SHAMPOO</h4>
+                    <h6>TRESEMME SHAMPOO</h6>
                     <p>Rs 960</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
                 </div>
-
-                <div class="new-arr-prod-a three_card_a">
+                <div class="new-arr-prod-a new-arr-prod-b CardHover">
                     <img src="images/Product Images/N6.png" alt="">
                     <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
                             class="ri-star-fill"></i><i class="ri-star-half-line"></i></span>
-                    <h4>CLEAR SHAMPOO</h4>
+                    <h6>CLEAR SHAMPOO</h6>
                     <p>Rs 450</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
                 </div>
-
-                <div class="new-arr-prod-a three_card_a">
+                <div class="new-arr-prod-a new-arr-prod-b CardHover">
                     <img src="images/Product Images/N7.png" alt="">
                     <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
                             class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                    <h4>PINK FLASH</h4>
+                    <h6>PINK FLASH</h6>
                     <p>Rs 360</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
                 </div>
-                <div class="new-arr-prod-a three_card_a">
+                <div class="new-arr-prod-a new-arr-prod-b CardHover">
                     <img src="images/Product Images/N8.png" alt="">
                     <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
                             class="ri-star-fill"></i><i class="ri-star-half-line"></i></span>
-                    <h4>FOGG INTENSE</h4>
+                    <h6>FOGG INTENSE</h6>
                     <p>Rs 400</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
                 </div>
-                <div class="new-arr-prod-a three_card_a">
+                <div class="new-arr-prod-a new-arr-prod-b CardHover">
                     <img src="images/Product Images/N9.png" alt="">
                     <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
                             class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                    <h4>PONDS MEN</h4>
+                    <h6>PONDS MEN</h6>
                     <p>Rs 780</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
                 </div>
-                <div class="new-arr-prod-a three_card_a">
+                <div class="new-arr-prod-a new-arr-prod-b CardHover">
                     <img src="images/Product Images/N10.png" alt="">
                     <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
                             class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                    <h4>JOHNSON'S BABY-OIL</h4>
+                    <h6>JOHNSON'S BABY-OIL</h6>
                     <p>Rs 560</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
                 </div>
-
             </div>
         </div>
+    </div>
 
-        <!-- Heading -->
-        <div class="catg-heading">
-            <hr class="hr-line">
-            <h1>BEST SELLERS</h1>
+    <!-- ======================================  Best Saler Product List Heading ====================================== -->
+    <div class="container catg-heading">
+        <hr class="hr-line">
+        <h1>BEST SELLERS</h1>
+    </div>
+
+    <!-- ======================================  Best Saler Product List ====================================== -->
+    <section class="new-arrivals">
+        <div class="container">
+            <div class="new-arr flex">
+                <div class="new-arr-prod-a CardHover">
+                    <img src="images/Product Images/N11.png" alt="">
+                    <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                    <h6>LOREAL LE BLUSH</h6>
+                    <p>Rs 2450</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
+                </div>
+                <div class="new-arr-prod-a CardHover">
+                    <img src="images/Product Images/N12.png" alt="">
+                    <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-half-line"></i></span>
+                    <h6>MAYBELLINE FIT ME</h6>
+                    <p>Rs 1550</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
+                </div>
+                <div class="new-arr-prod-a CardHover">
+                    <img src="images/Product Images/N13.png" alt="">
+                    <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                    <h6>LOREAL TRUE MATCH</h6>
+                    <p>Rs 3900</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
+                </div>
+                <div class="new-arr-prod-a CardHover">
+                    <img src="images/Product Images/N14.png" alt="">
+                    <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                    <h6>LOREAL INFALLIBLE</h6>
+                    <p>Rs 2340</p>
+                    <a href="#" class="addto-btn"><i class="ri-shopping-cart-2-line"></i>Add to Cart</a>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <!-- Best Saler Product List -->
-        <div class="new-arrivals">
-            <div class="new-arr-prod-a">
-                <img src="images/Product Images/N11.png" alt="">
-                <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
-                        class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                <h4>LOREAL LE BLUSH</h4>
-                <p>Rs 2450</p>
-            </div>
-            <div class="new-arr-prod-a">
-                <img src="images/Product Images/N12.png" alt="">
-                <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
-                        class="ri-star-fill"></i><i class="ri-star-half-line"></i></span>
-                <h4>MAYBELLINE FIT ME</h4>
-                <p>Rs 1550</p>
-            </div>
-            <div class="new-arr-prod-a">
-                <img src="images/Product Images/N13.png" alt="">
-                <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
-                        class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                <h4>LOREAL TRUE MATCH</h4>
-                <p>Rs 3900</p>
-            </div>
-            <div class="new-arr-prod-a">
-                <img src="images/Product Images/N14.png" alt="">
-                <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
-                        class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
-                <h4>LOREAL INFALLIBLE</h4>
-                <p>Rs 2340</p>
-            </div>
-        </div>
-
-        <!-- Green Col -->
-        <div class="green_col">
+    <!-- ======================================  Green Block Pre Footer ====================================== -->
+    <div class="container">
+        <div class="green_col flex">
             <div class="green_col_4">
                 <i class="ri-emotion-happy-line"></i>
                 <p><b>100% SATIFICATION</b><br>IF YOU UNABLE</p>
@@ -277,9 +303,12 @@
                 <p><b>MONEY BACK</b><br>14 DAYS RETURN</p>
             </div>
         </div>
+    </div>
 
-        <footer>
-            <div class="footer">
+    <!-- ======================================  Footer ====================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer flex">
                 <div class="footer_col_1">
                     <img src="images/Glam Aura New logo White.png" alt="" srcset="">
                     <div class="social_icon_footer">
@@ -289,44 +318,44 @@
                         <i class="ri-linkedin-fill"></i>
                     </div>
                 </div>
-
                 <div class="footer_col_2">
-                    <h2>QUICK LINK</h2>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>CATEGORIES</li>
-                    <li>CONTACT</li>
+                    <h6>QUICK LINK</h6>
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>CATEGORIES</li>
+                        <li>CONTACT</li>
+                    </ul>
                 </div>
-
                 <div class="footer_col_2">
-                    <h2>CONTACT</h2>
-                    <li>+92 3123456789</li>
-                    <li>INFO@GLAMAURA.COM</li>
-                    <li>GULSHAN E IQBAL,</li>
-                    <li>KARACHI, 74660</li>
+                    <h6>CONTACT</h6>
+                    <ul>
+                        <li>+92 3123456789</li>
+                        <li>INFO@GLAMAURA.COM</li>
+                        <li>GULSHAN E IQBAL,</li>
+                        <li>KARACHI, 74660</li>
+                    </ul>
                 </div>
-
                 <div class="footer_col_3 footer_col_2">
-                    <h2>SUBSCRIBE NEWSLETTER</h2>
+                    <h6>SUBSCRIBE NEWSLETTER</h6>
                     <p>Subscribe to our newsletter to receive the latest updates on our new discounts and sales.</p>
                     <div class="search-box">
-                        <input type="email" placeholder="ENTER YOUR EMAIL">
-                        <button><i class="gg-search"></i></button>
+                        <input type="text" placeholder="SEARCH A PRODUCT....">
+                        <button><i class="ri-search-line"></i></button>
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="copyright">
-                <p>Copyright © 2023, All Right Reserved <a href="">Abdul Basit</a></p>
+        </div>
+    </footer>
+
+    <section class="copyright">
+        <hr>
+        <div class="container">
+            <div class="copyright_cont">
+                <p>Copyright © 2023, All Right Reserved <a href="https://github.com/basitaminbhatti">Abdul Basit</a></p>
             </div>
-
-
-
-        </footer>
-
-
-
-    </div>
+        </div>
+    </section>
 </body>
 
 </html>

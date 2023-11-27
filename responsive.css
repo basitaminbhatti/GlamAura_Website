@@ -1,0 +1,210 @@
+/* Styles for large desktops (width 1200 pixels and above) */
+@media screen and (max-width: 1199px) {
+    body {
+        background-color: red;
+    }
+
+    :root {
+        --body-head-L1: 4.2rem;
+        --body-head-L2: 4rem;
+        --body-head-L3: 3.5rem;
+        --body-head-L4: 3.25rem;
+        --body-head-L5: 2rem;
+        --body-head-L6: 1.75rem;
+        --body-head-L7: 1.25rem;
+        --body-head-L: 1rem;
+        --body-head-M: 0.875rem;
+        --body-head-S: 0.75rem;
+        --body-head-XS: 0.625rem;
+    }
+
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2.75rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.75rem;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+    .displyimage {
+        height: 500px;
+    }
+
+    .prod-catg {
+        gap: 20px;
+    }
+    .footer{
+        gap: 23px;
+    }
+}
+
+/* Styles for laptops and desktops (width from 1024 to 1199 pixels) */
+@media screen and (max-width: 1023px){
+    body {
+        background-color: yellow;
+    }
+
+    :root {
+        --body-head-L1: 4rem;
+        --body-head-L2: 3.5rem;
+        --body-head-L3: 3rem;
+        --body-head-L4: 2.75rem;
+        --body-head-L5: 1.75rem;
+        --body-head-L6: 1.5rem;
+        --body-head-L7: 1.25rem;
+        --body-head-L: 1rem;
+        --body-head-M: 0.875rem;
+        --body-head-S: 0.75rem;
+        --body-head-XS: 0.625rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.25rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 1.75rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+    .displyimage {
+        height: 440px;
+    }
+
+    .title-heading-right {
+        padding: 0em;
+    }
+    .title-heading-right p {
+        width: 90%;
+    }
+    .prod-catg {
+        gap: 15px;
+    }
+    .big_discount_div_landscape {
+        display: flex;
+    }
+    .big_discount_Horizontal{
+        display: none;
+    }
+    .footer_col_3{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .green_col {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 994px){
+    body {
+        background-color: purple;
+    }
+    h1 {
+        font-size: 3.7rem;
+    }
+    .displyimage {
+        height: 400px;
+    }
+    .prod-catg {
+        gap: 20px;
+        width: 80%;
+    }
+    .green_col_4{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 806px){
+    body {
+        background-color: rgb(0, 34, 128);
+    }
+    :root {
+        --body-head-L3: 2.8rem;
+        --body-head-M: 0.775rem;
+    }
+    h1 {
+        font-size: 3.6rem;
+    }
+
+}
+
+
+/* Styles for tablets (width from 768 to 1023 pixels) */
+@media screen and (max-width: 767px){
+    body {
+        background-color: chocolate;
+    }
+
+    :root {
+        --body-head-L1: 3.5rem;
+        --body-head-L2: 3rem;
+        --body-head-L3: 2.5rem;
+        --body-head-L4: 2.25rem;
+        --body-head-L5: 1.5rem;
+        --body-head-L6: 1.25rem;
+        --body-head-L7: 1rem;
+        --body-head-L: 0.75rem;
+        --body-head-M: 0.625rem;
+        --body-head-S: 0.5rem;
+        --body-head-XS: 0.375rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.25rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+}
+
+/* Styles for mobile devices (width up to 767 pixels) */
+@media screen and (max-width: 319px) {
+    body {
+        background-color: firebrick;
+    }
+}
