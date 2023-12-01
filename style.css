@@ -170,6 +170,23 @@ button .ri-search-line {
     cursor: pointer;
 }
 
+/* ======================================  Responsive Header ======================================  */
+
+.header_responsive{
+    justify-content: space-between;
+    display: none;
+}
+.responsive_search-box{
+    text-align: center;
+    display: none;
+}
+.header_responsive i{
+    font-size: var(--body-head-L4);
+    color: var(--primary-text-color);
+}
+.header_responsive i:hover{
+    color: var(--secondary-text-color);
+}
 /* ======================================  Navbar ======================================  */
 .navbar {
     display: flex;
@@ -192,11 +209,31 @@ button .ri-search-line {
     padding-bottom: 5px;
 }
 
+/* ======================================  Responsive Navbar ======================================  */
+.responsive_navbar{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin-top: -20px;
+    z-index: 2;
+    display: none;
+    transition: 0.1s;
+}
+.responsive_navbar_links a{
+    display: block;
+    margin-block:6vh;
+}
+.responsive_navbar_links a:hover {
+    color: var(--primary-text-color);
+    transition: 0.1s;
+}
+
+
 /* ======================================  Display Image ======================================  */
 .displyimage {
     width: 100%;
     height: 600px;
-    background-image: url(images/DisplayImageleft.png);
+    background-image: url(images/Display%20Image%20Full.png);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
